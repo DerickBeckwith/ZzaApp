@@ -1,24 +1,30 @@
 ﻿namespace Zza.Services
 {
     using System.Collections.Generic;
+    using System.Linq;
 
+    using Zza.Data;
     using Zza.Entities;
 
     public class ZzaService : IZzaService
     {
+        protected readonly ZzaDbContext Db = new ZzaDbContext();
+
         public List<Product> GetProducts()
         {
-            throw new System.NotImplementedException();
+            return this.Db.Products.ToList();
         }
 
         public List<Customer> GetCustomers()
         {
-            throw new System.NotImplementedException();
+            return this.Db.Customers.ToList();
         }
 
         public void SubmitOrder(Order order)
         {
-            throw new System.NotImplementedException();
+            this.Db.Orders.Add(order);
+            order.OrderItems.ForEach(item => this.Db.OrderItems.Add(item));
+            this.Db.SaveChanges();
         }
     }
 }

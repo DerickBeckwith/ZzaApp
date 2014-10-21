@@ -72,6 +72,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Zza.Data\Zza.Data.csproj">
+      <Project>{7105A9CB-F9B6-4839-ABDE-74E678131EE3}</Project>
+      <Name>Zza.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Zza.Entities\Zza.Entities.csproj">
       <Project>{518ef46d-b462-489a-9dc2-88a34c7ad22b}</Project>
       <Name>Zza.Entities</Name>
