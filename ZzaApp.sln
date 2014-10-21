@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Services", "Zza.Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Entities", "Zza.Entities\Zza.Entities.csproj", "{518EF46D-B462-489A-9DC2-88A34C7AD22B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Data", "Zza.Data\Zza.Data.csproj", "{7105A9CB-F9B6-4839-ABDE-74E678131EE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7105A9CB-F9B6-4839-ABDE-74E678131EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7105A9CB-F9B6-4839-ABDE-74E678131EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7105A9CB-F9B6-4839-ABDE-74E678131EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7105A9CB-F9B6-4839-ABDE-74E678131EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
