@@ -3,6 +3,8 @@
     using System.Collections.Generic;
     using System.ServiceModel;
 
+    using Zza.Entities;
+
     /// <summary>
     /// Definition of the Pizza Delivery Service.
     /// </summary>

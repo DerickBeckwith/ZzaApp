@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Services", "Zza.Services\Zza.Services.csproj", "{5613B13E-D03C-445E-B9C0-58D4347EE330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Entities", "Zza.Entities\Zza.Entities.csproj", "{518EF46D-B462-489A-9DC2-88A34C7AD22B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5613B13E-D03C-445E-B9C0-58D4347EE330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5613B13E-D03C-445E-B9C0-58D4347EE330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5613B13E-D03C-445E-B9C0-58D4347EE330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518EF46D-B462-489A-9DC2-88A34C7AD22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
